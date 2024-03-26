@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "45d056b0-8ef5-494a-b80f-8501166f283f",
+		"name": "Flask Trial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25334867"
+	},
+	"item": [
+		{
+			"name": "Convert to XML",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 32115,\r\n  \"user_id\": 3878,\r\n  \"first_name\": \"Максим\",\r\n  \"second_name\": \"Яруллин\",\r\n  \"middle_name\": null,\r\n  \"dict_sex_id\": 1,\r\n  \"birthday\": \"07.08.2005\",\r\n  \"citizenship_id\": 185,\r\n  \"motherland\": \"Россия Г.Астана\",\r\n  \"email\": \"mail@etu.ru\",\r\n  \"tel_mobile\": \"+7 (888) 888-88-88\",\r\n  \"tel_mobile_frn\": \"88888888888\",\r\n  \"residence_country_id\": 185,\r\n  \"kladr_1\": \"2200000000000\",\r\n  \"kladr_2\": \"2200300000000\",\r\n  \"kladr_3\": \"2200000100000\",\r\n  \"kladr_4\": \"2200300002500\",\r\n  \"address_txt1\": \"Могилевская область\",\r\n  \"address_txt2\": null,\r\n  \"address_txt3\": null,\r\n  \"address_txt4\": null,\r\n  \"street\": null,\r\n  \"house\": null,\r\n  \"building\": null,\r\n  \"letter\": null,\r\n  \"building2\": null,\r\n  \"flat\": null,\r\n  \"post_index\": \"111111\",\r\n  \"has_another_living_address\": false,\r\n  \"second_residence_country_id\": 185,\r\n  \"second_kladr_1\": null,\r\n  \"second_kladr_2\": null,\r\n  \"second_kladr_3\": null,\r\n  \"second_kladr_4\": null,\r\n  \"second_address_txt1\": null,\r\n  \"second_address_txt2\": null,\r\n  \"second_address_txt3\": null,\r\n  \"second_address_txt4\": null,\r\n  \"second_street\": null,\r\n  \"second_house\": null,\r\n  \"second_building\": null,\r\n  \"second_letter\": null,\r\n  \"second_building2\": null,\r\n  \"second_flat\": null,\r\n  \"second_post_index\": \"111111\",\r\n  \"passport_type_id\": 1,\r\n  \"passport_series\": \"5661\",\r\n  \"passport_number\": \"111111\",\r\n  \"passport_begda\": \"08.9.2019\",\r\n  \"passport_endda\": null,\r\n  \"passport_org_code\": \"111-111\",\r\n  \"passport_issued_by\": \"МВД-АВОР.ПРДЛПАРОДАЬЕК\",\r\n  \"has_old_passport\": true,\r\n  \"old_passport_type_id\": null,\r\n  \"old_passport_series\": null,\r\n  \"old_passport_number\": \"1111111\",\r\n  \"old_passport_begda\": \"11.11.1111\",\r\n  \"old_passport_endda\": null,\r\n  \"old_passport_org_code\": null,\r\n  \"old_passport_issued_by\": null,\r\n  \"paid_by_another_human\": null,\r\n  \"paid_passport_type_id\": null,\r\n  \"paid_passport_series\": null,\r\n  \"paid_passport_number\": null,\r\n  \"paid_passport_begda\": null,\r\n  \"paid_passport_endda\": null,\r\n  \"paid_passport_org_code\": null,\r\n  \"paid_passport_issued_by\": null,\r\n  \"foreign_language_id\": null,\r\n  \"need_hostel\": null,\r\n  \"special_conditions\": null,\r\n  \"is_with_disabilities\": null,\r\n  \"institution_country_id\": 185,\r\n  \"institution_city_id\": null,\r\n  \"institution_city_text\": null,\r\n  \"diploma_series\": \"123132\",\r\n  \"diploma_number\": \"1211221\",\r\n  \"diploma_date\": \"10.10.2000\",\r\n  \"diploma_registration_number\": \"уц\",\r\n  \"graduated_university_id\": null,\r\n  \"has_not_found_university\": null,\r\n  \"graduated_university_text\": \"кцу\",\r\n  \"average_diploma_grade\": null,\r\n  \"graduated_school_id\": null,\r\n  \"has_not_found_school\": null,\r\n  \"graduated_school_text\": null,\r\n  \"edu_direction_id\": null,\r\n  \"has_not_found_direction\": null,\r\n  \"edu_direction_text\": null,\r\n  \"has_no_same_level_diploma\": false,\r\n  \"dict_bak_exam_reason_id\": 4,\r\n  \"has_essay\": true,\r\n  \"dict_asp_science_curators_id\": null,\r\n  \"exam_foreign_language_id\": null,\r\n  \"created_at\": \"2022-06-09T18:25:23.000000Z\",\r\n  \"updated_at\": \"2023-03-05T10:12:29.000000Z\",\r\n  \"created_by\": 3878,\r\n  \"campaign_id\": 4,\r\n  \"dict_edu_diploma_level_id\": 4,\r\n  \"dict_edu_diploma_sublevel_id\": 1,\r\n  \"dict_edu_diploma_name_id\": 6,\r\n  \"edu_diploma_name_text\": null,\r\n  \"application_scan_id\": null,\r\n  \"uploaded_at\": null,\r\n  \"applied_at\": null,\r\n  \"revoked_at\": null,\r\n  \"accepted_at\": null,\r\n  \"denied_at\": null,\r\n  \"dict_deny_reason_type_id\": null,\r\n  \"deny_reason\": null,\r\n  \"denied_by\": null,\r\n  \"first_name_en\": \"Maxim\",\r\n  \"second_name_en\": \"Yarullin\",\r\n  \"middle_name_en\": null,\r\n  \"has_no_street\": true,\r\n  \"has_no_house\": true,\r\n  \"has_no_second_street\": false,\r\n  \"has_no_second_house\": false,\r\n  \"bak_exam_wish_math\": false,\r\n  \"bak_exam_wish_phys\": false,\r\n  \"bak_exam_wish_rus\": false,\r\n  \"bak_exam_wish_inf\": false,\r\n  \"bak_exam_wish_eng\": false,\r\n  \"bak_exam_wish_soc\": false,\r\n  \"bak_exam_wish_chem\": false,\r\n  \"has_without_exam_wish\": true,\r\n  \"has_special_rights_wish\": true,\r\n  \"has_priority_wish\": true,\r\n  \"has_target_wish\": true,\r\n  \"file_number\": null,\r\n  \"is_locked\": false,\r\n  \"locked_by\": null,\r\n  \"applied_by\": 3878,\r\n  \"revoked_by\": null,\r\n  \"accepted_by\": null,\r\n  \"snils\": null,\r\n  \"locked_at\": null,\r\n  \"revision\": 1,\r\n  \"previous_application_id\": null,\r\n  \"has_compatriot_wish\": false,\r\n  \"is_compatriot\": false,\r\n  \"has_ministry_line_wish\": false,\r\n  \"is_ministry_line\": false,\r\n  \"ministry_line_doc_name\": null,\r\n  \"ministry_line_doc_number\": null,\r\n  \"ministry_line_doc_date\": null,\r\n  \"is_regrade_allowed\": false,\r\n  \"idk_id\": null,\r\n  \"tel_house\": null,\r\n  \"is_foreigner\": false,\r\n  \"is_paid\": false,\r\n  \"paid_contract_num\": null,\r\n  \"paid_contract_begda\": null,\r\n  \"paid_contract_endda\": null,\r\n  \"is_without_citizenship\": false,\r\n  \"old_first_name\": \"Максим\",\r\n  \"old_second_name\": \"Яруллин\",\r\n  \"old_middle_name\": null,\r\n  \"epgu_snils\": null,\r\n  \"dict_document_return_id\": 1,\r\n  \"epgu_achievement_sum\": null,\r\n  \"dict_hostel_group_id\": null,\r\n  \"is_first_settle_in_hostel\": null,\r\n  \"dict_hostel_id\": null,\r\n  \"is_send_to_sberbank\": null,\r\n  \"is_sign_for_sberbank\": null,\r\n  \"personal_number\": null,\r\n  \"individual_number\": null,\r\n  \"student_number\": null,\r\n  \"mmiis_id\": null,\r\n  \"is_sent_to_mmiis\": false,\r\n  \"passport_name_text\": null,\r\n  \"has_original_edu_diploma\": false,\r\n  \"personal_data_consent_scan_id\": null,\r\n  \"edu_kladr_1\": \"7800000000000\",\r\n  \"edu_kladr_2\": null,\r\n  \"edu_kladr_3\": null,\r\n  \"edu_kladr_4\": null,\r\n  \"edu_address_txt1\": null,\r\n  \"edu_address_txt2\": null,\r\n  \"edu_address_txt3\": null,\r\n  \"edu_address_txt4\": null,\r\n  \"is_online_bak_exam\": false,\r\n  \"is_hidden_from_public_lists\": false,\r\n  \"service_entrant_guid\": null,\r\n  \"has_special_wish\": false,\r\n  \"is_applied_offline\": false,\r\n  \"photo_id\": null,\r\n  \"passport_uuid\": \"151ad3fc-756f-46d0-8ec0-9d0355ec693a\",\r\n  \"is_from_epgu\": false,\r\n  \"is_applied_by_post\": false,\r\n  \"is_russian_citizen_after_2022\": false,\r\n  \"is_without_snils\": true,\r\n  \"edu_document_uuid\": \"a06d0356-9997-4efe-86c0-a3348bd8b2f7\",\r\n  \"is_passport_checked\": false,\r\n  \"additional_files_added_at\": null,\r\n  \"additional_files_checked_at\": null,\r\n  \"has_additional_files\": false,\r\n  \"is_additional_files_checked\": false,\r\n  \"passport_epgu_id\": null,\r\n  \"send_to_epgu\": false,\r\n  \"is_education_document_checked\": false,\r\n  \"edu_document_epgu_id\": null,\r\n  \"original_edu_diploma_applied_at\": null,\r\n  \"original_edu_diploma_revoked_at\": null,\r\n  \"edu_document_uuid_2\": \"fc6ced9d-9925-4f88-aff7-279788c93829\",\r\n  \"dict_mark_id\": null,\r\n  \"has_epgu_original_education_document\": false,\r\n  \"additional_tel_mobile\": null,\r\n  \"step_navigation\": 5,\r\n  \"public_code\": \"870-074-745 12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/xml",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"xml"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful Parse",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 32115,\r\n  \"user_id\": 3878,\r\n  \"first_name\": \"Максим\",\r\n  \"second_name\": \"Яруллин\",\r\n  \"middle_name\": null,\r\n  \"dict_sex_id\": 1,\r\n  \"birthday\": \"07.08.2005\",\r\n  \"citizenship_id\": 185,\r\n  \"motherland\": \"Россия Г.Астана\",\r\n  \"email\": \"mail@etu.ru\",\r\n  \"tel_mobile\": \"+7 (888) 888-88-88\",\r\n  \"tel_mobile_frn\": \"88888888888\",\r\n  \"residence_country_id\": 185,\r\n  \"kladr_1\": \"2200000000000\",\r\n  \"kladr_2\": \"2200300000000\",\r\n  \"kladr_3\": \"2200000100000\",\r\n  \"kladr_4\": \"2200300002500\",\r\n  \"address_txt1\": \"Могилевская область\",\r\n  \"address_txt2\": null,\r\n  \"address_txt3\": null,\r\n  \"address_txt4\": null,\r\n  \"street\": null,\r\n  \"house\": null,\r\n  \"building\": null,\r\n  \"letter\": null,\r\n  \"building2\": null,\r\n  \"flat\": null,\r\n  \"post_index\": \"111111\",\r\n  \"has_another_living_address\": false,\r\n  \"second_residence_country_id\": 185,\r\n  \"second_kladr_1\": null,\r\n  \"second_kladr_2\": null,\r\n  \"second_kladr_3\": null,\r\n  \"second_kladr_4\": null,\r\n  \"second_address_txt1\": null,\r\n  \"second_address_txt2\": null,\r\n  \"second_address_txt3\": null,\r\n  \"second_address_txt4\": null,\r\n  \"second_street\": null,\r\n  \"second_house\": null,\r\n  \"second_building\": null,\r\n  \"second_letter\": null,\r\n  \"second_building2\": null,\r\n  \"second_flat\": null,\r\n  \"second_post_index\": \"111111\",\r\n  \"passport_type_id\": 1,\r\n  \"passport_series\": \"5661\",\r\n  \"passport_number\": \"111111\",\r\n  \"passport_begda\": \"08.9.2019\",\r\n  \"passport_endda\": null,\r\n  \"passport_org_code\": \"111-111\",\r\n  \"passport_issued_by\": \"МВД-АВОР.ПРДЛПАРОДАЬЕК\",\r\n  \"has_old_passport\": true,\r\n  \"old_passport_type_id\": null,\r\n  \"old_passport_series\": null,\r\n  \"old_passport_number\": \"1111111\",\r\n  \"old_passport_begda\": \"11.11.1111\",\r\n  \"old_passport_endda\": null,\r\n  \"old_passport_org_code\": null,\r\n  \"old_passport_issued_by\": null,\r\n  \"paid_by_another_human\": null,\r\n  \"paid_passport_type_id\": null,\r\n  \"paid_passport_series\": null,\r\n  \"paid_passport_number\": null,\r\n  \"paid_passport_begda\": null,\r\n  \"paid_passport_endda\": null,\r\n  \"paid_passport_org_code\": null,\r\n  \"paid_passport_issued_by\": null,\r\n  \"foreign_language_id\": null,\r\n  \"need_hostel\": null,\r\n  \"special_conditions\": null,\r\n  \"is_with_disabilities\": null,\r\n  \"institution_country_id\": 185,\r\n  \"institution_city_id\": null,\r\n  \"institution_city_text\": null,\r\n  \"diploma_series\": \"123132\",\r\n  \"diploma_number\": \"1211221\",\r\n  \"diploma_date\": \"10.10.2000\",\r\n  \"diploma_registration_number\": \"уц\",\r\n  \"graduated_university_id\": null,\r\n  \"has_not_found_university\": null,\r\n  \"graduated_university_text\": \"кцу\",\r\n  \"average_diploma_grade\": null,\r\n  \"graduated_school_id\": null,\r\n  \"has_not_found_school\": null,\r\n  \"graduated_school_text\": null,\r\n  \"edu_direction_id\": null,\r\n  \"has_not_found_direction\": null,\r\n  \"edu_direction_text\": null,\r\n  \"has_no_same_level_diploma\": false,\r\n  \"dict_bak_exam_reason_id\": 4,\r\n  \"has_essay\": true,\r\n  \"dict_asp_science_curators_id\": null,\r\n  \"exam_foreign_language_id\": null,\r\n  \"created_at\": \"2022-06-09T18:25:23.000000Z\",\r\n  \"updated_at\": \"2023-03-05T10:12:29.000000Z\",\r\n  \"created_by\": 3878,\r\n  \"campaign_id\": 4,\r\n  \"dict_edu_diploma_level_id\": 4,\r\n  \"dict_edu_diploma_sublevel_id\": 1,\r\n  \"dict_edu_diploma_name_id\": 6,\r\n  \"edu_diploma_name_text\": null,\r\n  \"application_scan_id\": null,\r\n  \"uploaded_at\": null,\r\n  \"applied_at\": null,\r\n  \"revoked_at\": null,\r\n  \"accepted_at\": null,\r\n  \"denied_at\": null,\r\n  \"dict_deny_reason_type_id\": null,\r\n  \"deny_reason\": null,\r\n  \"denied_by\": null,\r\n  \"first_name_en\": \"Maxim\",\r\n  \"second_name_en\": \"Yarullin\",\r\n  \"middle_name_en\": null,\r\n  \"has_no_street\": true,\r\n  \"has_no_house\": true,\r\n  \"has_no_second_street\": false,\r\n  \"has_no_second_house\": false,\r\n  \"bak_exam_wish_math\": false,\r\n  \"bak_exam_wish_phys\": false,\r\n  \"bak_exam_wish_rus\": false,\r\n  \"bak_exam_wish_inf\": false,\r\n  \"bak_exam_wish_eng\": false,\r\n  \"bak_exam_wish_soc\": false,\r\n  \"bak_exam_wish_chem\": false,\r\n  \"has_without_exam_wish\": true,\r\n  \"has_special_rights_wish\": true,\r\n  \"has_priority_wish\": true,\r\n  \"has_target_wish\": true,\r\n  \"file_number\": null,\r\n  \"is_locked\": false,\r\n  \"locked_by\": null,\r\n  \"applied_by\": 3878,\r\n  \"revoked_by\": null,\r\n  \"accepted_by\": null,\r\n  \"snils\": null,\r\n  \"locked_at\": null,\r\n  \"revision\": 1,\r\n  \"previous_application_id\": null,\r\n  \"has_compatriot_wish\": false,\r\n  \"is_compatriot\": false,\r\n  \"has_ministry_line_wish\": false,\r\n  \"is_ministry_line\": false,\r\n  \"ministry_line_doc_name\": null,\r\n  \"ministry_line_doc_number\": null,\r\n  \"ministry_line_doc_date\": null,\r\n  \"is_regrade_allowed\": false,\r\n  \"idk_id\": null,\r\n  \"tel_house\": null,\r\n  \"is_foreigner\": false,\r\n  \"is_paid\": false,\r\n  \"paid_contract_num\": null,\r\n  \"paid_contract_begda\": null,\r\n  \"paid_contract_endda\": null,\r\n  \"is_without_citizenship\": false,\r\n  \"old_first_name\": \"Максим\",\r\n  \"old_second_name\": \"Яруллин\",\r\n  \"old_middle_name\": null,\r\n  \"epgu_snils\": null,\r\n  \"dict_document_return_id\": 1,\r\n  \"epgu_achievement_sum\": null,\r\n  \"dict_hostel_group_id\": null,\r\n  \"is_first_settle_in_hostel\": null,\r\n  \"dict_hostel_id\": null,\r\n  \"is_send_to_sberbank\": null,\r\n  \"is_sign_for_sberbank\": null,\r\n  \"personal_number\": null,\r\n  \"individual_number\": null,\r\n  \"student_number\": null,\r\n  \"mmiis_id\": null,\r\n  \"is_sent_to_mmiis\": false,\r\n  \"passport_name_text\": null,\r\n  \"has_original_edu_diploma\": false,\r\n  \"personal_data_consent_scan_id\": null,\r\n  \"edu_kladr_1\": \"7800000000000\",\r\n  \"edu_kladr_2\": null,\r\n  \"edu_kladr_3\": null,\r\n  \"edu_kladr_4\": null,\r\n  \"edu_address_txt1\": null,\r\n  \"edu_address_txt2\": null,\r\n  \"edu_address_txt3\": null,\r\n  \"edu_address_txt4\": null,\r\n  \"is_online_bak_exam\": false,\r\n  \"is_hidden_from_public_lists\": false,\r\n  \"service_entrant_guid\": null,\r\n  \"has_special_wish\": false,\r\n  \"is_applied_offline\": false,\r\n  \"photo_id\": null,\r\n  \"passport_uuid\": \"151ad3fc-756f-46d0-8ec0-9d0355ec693a\",\r\n  \"is_from_epgu\": false,\r\n  \"is_applied_by_post\": false,\r\n  \"is_russian_citizen_after_2022\": false,\r\n  \"is_without_snils\": true,\r\n  \"edu_document_uuid\": \"a06d0356-9997-4efe-86c0-a3348bd8b2f7\",\r\n  \"is_passport_checked\": false,\r\n  \"additional_files_added_at\": null,\r\n  \"additional_files_checked_at\": null,\r\n  \"has_additional_files\": false,\r\n  \"is_additional_files_checked\": false,\r\n  \"passport_epgu_id\": null,\r\n  \"send_to_epgu\": false,\r\n  \"is_education_document_checked\": false,\r\n  \"edu_document_epgu_id\": null,\r\n  \"original_edu_diploma_applied_at\": null,\r\n  \"original_edu_diploma_revoked_at\": null,\r\n  \"edu_document_uuid_2\": \"fc6ced9d-9925-4f88-aff7-279788c93829\",\r\n  \"dict_mark_id\": null,\r\n  \"has_epgu_original_education_document\": false,\r\n  \"additional_tel_mobile\": null,\r\n  \"step_navigation\": 5,\r\n  \"public_code\": \"870-074-745 12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/xml",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"xml"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "xml",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.9.13"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Mar 2024 16:59:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/xml; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1125"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "<?xml version='1.0' encoding='utf8'?>\n<EntrantChoice>\n    <Guid>32115</Guid>\n    <AddEntrant>\n        <Identification>\n            <IdDocumentType>100001</IdDocumentType>\n            <DocName>Паспорт гражданина Российской Федерации</DocName>\n            <DocSeries>5661</DocSeries>\n            <DocNumber>111111</DocNumber>\n            <IssueDate>2019-09-08</IssueDate>\n            <DocOrganization>МВД-АВОР.ПРДЛПАРОДАЬЕК</DocOrganization>\n            <Fields>\n                <SubdivisionCode>111-111</SubdivisionCode>\n                <IdOksm>185</IdOksm>\n                <Surname>Яруллин</Surname>\n                <Name>Максим</Name>\n                <Patronymic />\n            </Fields>\n        </Identification>\n        <Snils />\n        <IdGender>1</IdGender>\n        <Birthday>2005-08-07</Birthday>\n        <Birthplace>Россия Г.Астана</Birthplace>\n        <Phone>+7 (888) 888-88-88</Phone>\n        <Email>mail@etu.ru</Email>\n        <IdOksm>185</IdOksm>\n        <FreeEducationReason>\n            <IdFreeEducationReason>3878</IdFreeEducationReason>\n            <IdOksmFreeEducationReason>185</IdOksmFreeEducationReason>\n        </FreeEducationReason>\n        <AddressList>\n            <Address>\n                <IsRegistration>True</IsRegistration>\n                <FullAddr>111111</FullAddr>\n                <IdRegion>185</IdRegion>\n                <City>Могилевская область</City>\n            </Address>\n        </AddressList>\n    </AddEntrant>\n</EntrantChoice>"
+				}
+			]
+		},
+		{
+			"name": "Convert to JSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<PackageData>\r\n  <IdJwt>1</IdJwt>\r\n  <EntityAction>EntityAction1</EntityAction>\r\n  <SuccessResultList>\r\n    <Entrant>\r\n      <Photo>\r\n        <Fui>Fui1</Fui>\r\n        <FileHash>FileHash1</FileHash>\r\n      </Photo>\r\n      <DocumentList>\r\n        <Document>\r\n          <IdAchievementCategory>1</IdAchievementCategory>\r\n          <IdCheckStatus>1</IdCheckStatus>\r\n          <DocOrganization>DocOrganization1</DocOrganization>\r\n          <IssueDate>1900-01-01</IssueDate>\r\n          <DocNumber>DocNumber1</DocNumber>\r\n          <DocSeries>DocSeries1</DocSeries>\r\n          <DocName>DocName1</DocName>\r\n          <IdDocumentType>1</IdDocumentType>\r\n          <FileHash>FileHash1</FileHash>\r\n          <Guid>Guid_____1</Guid>\r\n        </Document>\r\n        <Document>\r\n          <IdAchievementCategory>79228162514264337593543950335</IdAchievementCategory>\r\n          <IdCheckStatus>79228162514264337593543950335</IdCheckStatus>\r\n          <DocOrganization>DocOrganization2</DocOrganization>\r\n          <IssueDate>0001-01-01</IssueDate>\r\n          <DocNumber>DocNumber2</DocNumber>\r\n          <DocSeries>DocSeries2</DocSeries>\r\n          <DocName>DocName2</DocName>\r\n          <IdDocumentType>79228162514264337593543950335</IdDocumentType>\r\n          <FileHash>FileHash2</FileHash>\r\n          <Guid>Guid_____2</Guid>\r\n        </Document>\r\n      </DocumentList>\r\n      <AddressList>\r\n        <Address>\r\n          <City>City1</City>\r\n          <IdRegion>1</IdRegion>\r\n          <FullAddr>FullAddr1</FullAddr>\r\n          <IsRegistration>true</IsRegistration>\r\n        </Address>\r\n        <Address>\r\n          <City>City2</City>\r\n          <IdRegion>79228162514264337593543950335</IdRegion>\r\n          <FullAddr>FullAddr2</FullAddr>\r\n          <IsRegistration>false</IsRegistration>\r\n        </Address>\r\n      </AddressList>\r\n      <FreeEducationReason>\r\n        <IdOksmFreeEducationReason>1</IdOksmFreeEducationReason>\r\n        <IdFreeEducationReason>1</IdFreeEducationReason>\r\n      </FreeEducationReason>\r\n      <IdOksm>1</IdOksm>\r\n      <Patronymic>Patronymic1</Patronymic>\r\n      <Name>Name1</Name>\r\n      <Surname>Surname1</Surname>\r\n      <DateAvailabilityEduDoc>1900-01-01T01:01:01+03:00</DateAvailabilityEduDoc>\r\n      <AvailabilityEduDoc>true</AvailabilityEduDoc>\r\n      <Email>Email1</Email>\r\n      <Phone>Phone1</Phone>\r\n      <Birthplace>Birthplace1</Birthplace>\r\n      <Birthday>1900-01-01</Birthday>\r\n      <IdGender>1</IdGender>\r\n      <Snils>Snils_____1</Snils>\r\n      <Guid>Guid_____1</Guid>\r\n      <IdObject>1</IdObject>\r\n    </Entrant>\r\n  </SuccessResultList>\r\n</PackageData>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/json",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful Parse",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<PackageData>\r\n  <IdJwt>1</IdJwt>\r\n  <EntityAction>EntityAction1</EntityAction>\r\n  <SuccessResultList>\r\n    <Entrant>\r\n      <Photo>\r\n        <Fui>Fui1</Fui>\r\n        <FileHash>FileHash1</FileHash>\r\n      </Photo>\r\n      <DocumentList>\r\n        <Document>\r\n          <IdAchievementCategory>1</IdAchievementCategory>\r\n          <IdCheckStatus>1</IdCheckStatus>\r\n          <DocOrganization>DocOrganization1</DocOrganization>\r\n          <IssueDate>1900-01-01</IssueDate>\r\n          <DocNumber>DocNumber1</DocNumber>\r\n          <DocSeries>DocSeries1</DocSeries>\r\n          <DocName>DocName1</DocName>\r\n          <IdDocumentType>1</IdDocumentType>\r\n          <FileHash>FileHash1</FileHash>\r\n          <Guid>Guid_____1</Guid>\r\n        </Document>\r\n        <Document>\r\n          <IdAchievementCategory>79228162514264337593543950335</IdAchievementCategory>\r\n          <IdCheckStatus>79228162514264337593543950335</IdCheckStatus>\r\n          <DocOrganization>DocOrganization2</DocOrganization>\r\n          <IssueDate>0001-01-01</IssueDate>\r\n          <DocNumber>DocNumber2</DocNumber>\r\n          <DocSeries>DocSeries2</DocSeries>\r\n          <DocName>DocName2</DocName>\r\n          <IdDocumentType>79228162514264337593543950335</IdDocumentType>\r\n          <FileHash>FileHash2</FileHash>\r\n          <Guid>Guid_____2</Guid>\r\n        </Document>\r\n      </DocumentList>\r\n      <AddressList>\r\n        <Address>\r\n          <City>City1</City>\r\n          <IdRegion>1</IdRegion>\r\n          <FullAddr>FullAddr1</FullAddr>\r\n          <IsRegistration>true</IsRegistration>\r\n        </Address>\r\n        <Address>\r\n          <City>City2</City>\r\n          <IdRegion>79228162514264337593543950335</IdRegion>\r\n          <FullAddr>FullAddr2</FullAddr>\r\n          <IsRegistration>false</IsRegistration>\r\n        </Address>\r\n      </AddressList>\r\n      <FreeEducationReason>\r\n        <IdOksmFreeEducationReason>1</IdOksmFreeEducationReason>\r\n        <IdFreeEducationReason>1</IdFreeEducationReason>\r\n      </FreeEducationReason>\r\n      <IdOksm>1</IdOksm>\r\n      <Patronymic>Patronymic1</Patronymic>\r\n      <Name>Name1</Name>\r\n      <Surname>Surname1</Surname>\r\n      <DateAvailabilityEduDoc>1900-01-01T01:01:01+03:00</DateAvailabilityEduDoc>\r\n      <AvailabilityEduDoc>true</AvailabilityEduDoc>\r\n      <Email>Email1</Email>\r\n      <Phone>Phone1</Phone>\r\n      <Birthplace>Birthplace1</Birthplace>\r\n      <Birthday>1900-01-01</Birthday>\r\n      <IdGender>1</IdGender>\r\n      <Snils>Snils_____1</Snils>\r\n      <Guid>Guid_____1</Guid>\r\n      <IdObject>1</IdObject>\r\n    </Entrant>\r\n  </SuccessResultList>\r\n</PackageData>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/json",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.9.13"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 26 Mar 2024 16:59:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6643"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"accepted_at\": null,\n        \"accepted_by\": null,\n        \"additional_files_added_at\": null,\n        \"additional_files_checked_at\": null,\n        \"additional_tel_mobile\": null,\n        \"address_txt1\": \"FullAddr1\",\n        \"address_txt2\": null,\n        \"address_txt3\": null,\n        \"address_txt4\": null,\n        \"application_scan_id\": null,\n        \"applied_at\": null,\n        \"applied_by\": \"1\",\n        \"average_diploma_grade\": null,\n        \"bak_exam_wish_chem\": false,\n        \"bak_exam_wish_eng\": false,\n        \"bak_exam_wish_inf\": false,\n        \"bak_exam_wish_math\": false,\n        \"bak_exam_wish_phys\": false,\n        \"bak_exam_wish_rus\": false,\n        \"bak_exam_wish_soc\": false,\n        \"birthday\": \"1900-01-01\",\n        \"building\": null,\n        \"building2\": null,\n        \"campaign_id\": -1,\n        \"citizenship_id\": \"1\",\n        \"created_at\": \"2022-06-09T18:25:23.000000Z\",\n        \"created_by\": -1,\n        \"denied_at\": null,\n        \"denied_by\": null,\n        \"deny_reason\": null,\n        \"dict_asp_science_curators_id\": null,\n        \"dict_bak_exam_reason_id\": -1,\n        \"dict_deny_reason_type_id\": null,\n        \"dict_document_return_id\": 1,\n        \"dict_edu_diploma_level_id\": -1,\n        \"dict_edu_diploma_name_id\": -1,\n        \"dict_edu_diploma_sublevel_id\": -1,\n        \"dict_hostel_group_id\": null,\n        \"dict_hostel_id\": null,\n        \"dict_mark_id\": null,\n        \"dict_sex_id\": \"1\",\n        \"diploma_date\": \"1900-01-01T01:01:01+03:00\",\n        \"diploma_number\": null,\n        \"diploma_registration_number\": null,\n        \"diploma_series\": null,\n        \"edu_address_txt1\": null,\n        \"edu_address_txt2\": null,\n        \"edu_address_txt3\": null,\n        \"edu_address_txt4\": null,\n        \"edu_diploma_name_text\": null,\n        \"edu_direction_id\": null,\n        \"edu_direction_text\": null,\n        \"edu_document_epgu_id\": null,\n        \"edu_document_uuid\": null,\n        \"edu_document_uuid_2\": null,\n        \"edu_kladr_1\": null,\n        \"edu_kladr_2\": null,\n        \"edu_kladr_3\": null,\n        \"edu_kladr_4\": null,\n        \"email\": \"Email1\",\n        \"epgu_achievement_sum\": null,\n        \"epgu_snils\": null,\n        \"exam_foreign_language_id\": null,\n        \"file_number\": null,\n        \"first_name\": \"Name1\",\n        \"first_name_en\": null,\n        \"flat\": null,\n        \"foreign_language_id\": null,\n        \"graduated_school_id\": null,\n        \"graduated_school_text\": null,\n        \"graduated_university_id\": null,\n        \"graduated_university_text\": null,\n        \"has_additional_files\": false,\n        \"has_another_living_address\": true,\n        \"has_compatriot_wish\": false,\n        \"has_epgu_original_education_document\": false,\n        \"has_essay\": false,\n        \"has_ministry_line_wish\": false,\n        \"has_no_house\": false,\n        \"has_no_old_house\": false,\n        \"has_no_old_street\": false,\n        \"has_no_same_level_diploma\": false,\n        \"has_no_street\": false,\n        \"has_not_found_direction\": null,\n        \"has_not_found_school\": null,\n        \"has_not_found_university\": null,\n        \"has_old_passport\": true,\n        \"has_original_edu_diploma\": \"true\",\n        \"has_priority_wish\": true,\n        \"has_special_rights_wish\": true,\n        \"has_special_wish\": false,\n        \"has_target_wish\": true,\n        \"has_without_exam_wish\": true,\n        \"house\": null,\n        \"id\": \"Guid_____1\",\n        \"idk_id\": null,\n        \"individual_number\": null,\n        \"institution_city_id\": null,\n        \"institution_city_text\": null,\n        \"institution_country_id\": \"1\",\n        \"is_additional_files_checked\": false,\n        \"is_applied_by_post\": false,\n        \"is_applied_offline\": false,\n        \"is_compatriot\": false,\n        \"is_education_document_checked\": false,\n        \"is_first_settle_in_hostel\": null,\n        \"is_foreigner\": false,\n        \"is_from_epgu\": false,\n        \"is_hidden_from_public_lists\": false,\n        \"is_locked\": false,\n        \"is_ministry_line\": false,\n        \"is_online_bak_exam\": false,\n        \"is_paid\": false,\n        \"is_passport_checked\": false,\n        \"is_regrade_allowed\": false,\n        \"is_russian_citizen_after_2022\": false,\n        \"is_send_to_sberbank\": null,\n        \"is_sent_to_mmiis\": false,\n        \"is_sign_for_sberbank\": null,\n        \"is_with_disabilities\": null,\n        \"is_without_citizenship\": false,\n        \"is_without_snils\": false,\n        \"kladr_1\": null,\n        \"kladr_2\": null,\n        \"kladr_3\": null,\n        \"kladr_4\": null,\n        \"letter\": null,\n        \"locked_at\": null,\n        \"locked_by\": null,\n        \"middle_name\": \"Patronymic1\",\n        \"middle_name_en\": null,\n        \"ministry_line_doc_date\": null,\n        \"ministry_line_doc_name\": null,\n        \"ministry_line_doc_number\": null,\n        \"mmiis_id\": null,\n        \"motherland\": \"Birthplace1\",\n        \"need_hostel\": null,\n        \"old_address_txt1\": \"FullAddr2\",\n        \"old_address_txt2\": null,\n        \"old_address_txt3\": null,\n        \"old_address_txt4\": null,\n        \"old_building\": null,\n        \"old_building2\": null,\n        \"old_first_name\": null,\n        \"old_flat\": null,\n        \"old_house\": null,\n        \"old_kladr_1\": null,\n        \"old_kladr_2\": null,\n        \"old_kladr_3\": null,\n        \"old_kladr_4\": null,\n        \"old_letter\": null,\n        \"old_middle_name\": null,\n        \"old_passport_begda\": \"0001-01-01\",\n        \"old_passport_endda\": null,\n        \"old_passport_issued_by\": \"DocOrganization2\",\n        \"old_passport_number\": \"DocNumber2\",\n        \"old_passport_org_code\": null,\n        \"old_passport_series\": \"DocSeries2\",\n        \"old_passport_type_id\": \"79228162514264337593543950335\",\n        \"old_post_index\": null,\n        \"old_residence_country_id\": \"79228162514264337593543950335\",\n        \"old_second_name\": null,\n        \"old_street\": null,\n        \"original_edu_diploma_applied_at\": null,\n        \"original_edu_diploma_revoked_at\": null,\n        \"paid_by_another_human\": false,\n        \"paid_contract_begda\": null,\n        \"paid_contract_endda\": null,\n        \"paid_contract_num\": null,\n        \"paid_passport_begda\": null,\n        \"paid_passport_endda\": null,\n        \"paid_passport_issued_by\": null,\n        \"paid_passport_number\": null,\n        \"paid_passport_org_code\": null,\n        \"paid_passport_series\": null,\n        \"paid_passport_type_id\": null,\n        \"passport_begda\": \"1900-01-01\",\n        \"passport_endda\": null,\n        \"passport_epgu_id\": null,\n        \"passport_issued_by\": \"DocOrganization1\",\n        \"passport_name_text\": null,\n        \"passport_number\": \"DocNumber1\",\n        \"passport_org_code\": null,\n        \"passport_series\": \"DocSeries1\",\n        \"passport_type_id\": \"1\",\n        \"passport_uuid\": null,\n        \"personal_data_consent_scan_id\": null,\n        \"personal_number\": null,\n        \"photo_id\": null,\n        \"post_index\": null,\n        \"previous_application_id\": null,\n        \"public_code\": null,\n        \"residence_country_id\": \"1\",\n        \"revision\": -1,\n        \"revoked_at\": null,\n        \"revoked_by\": null,\n        \"second_name\": \"Surname1\",\n        \"second_name_en\": null,\n        \"send_to_epgu\": false,\n        \"service_entrant_guid\": null,\n        \"snils\": \"Snils_____1\",\n        \"special_conditions\": null,\n        \"step_navigation\": -1,\n        \"street\": null,\n        \"student_number\": null,\n        \"tel_house\": null,\n        \"tel_mobile\": \"Phone1\",\n        \"tel_mobile_frn\": \"Phone1\",\n        \"updated_at\": \"2023-03-05T10:12:29.000000Z\",\n        \"uploaded_at\": null,\n        \"user_id\": \"1\"\n    }\n]"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://127.0.0.1:5000",
+			"type": "string"
+		}
+	]
+}
